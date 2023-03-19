@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.titleCon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.title {
+    width: 100%;
+    font-size: 46px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.products .prduct {
+    width: 380px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 1px rgb(75, 68, 58);
+}
+
+.products .prduct img {
+    width: 300px;
+    transition: 0.3s;
+}
+
+.products .prduct img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
